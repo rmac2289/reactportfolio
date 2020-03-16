@@ -1,0 +1,133 @@
+.section3 a, .section4 a {
+    margin-right: 20px;
+}
+
+.mealGenerator {
+    text-align: center;
+}
+
+p {
+    font-family: "Quattrocento", serif;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+#publicsafety {
+    font-size: 18px;
+}
+
+.repoLinks {
+    color: #12343b;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.repoLinks:hover {
+    color: #2d545e;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.public h3 {
+    font-size: 35px;
+    font-family: "Oswald", sans-serif;
+    color: #12343b;
+    margin-left: 25px;
+}
+
+.public {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    margin-top: 25px;
+}
+
+section h4 {
+    color: #12343b;
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 15px;
+    letter-spacing: 2.5px;
+}
+
+section {
+    min-height: 200px;
+    padding: 3% 0;
+    margin: 25px 100px 25px 100px;
+    text-align: left;
+    background: none;
+    opacity: .9;
+}
+.mealScreenshot {
+    max-height: 850px;
+}
+img {
+    width: 100%;
+    height: 75%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section3, .section4 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0;
+}
+
+.section3 div img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.public {
+    padding-top: 20px;
+    color: black;
+    outline: 1px solid #c89666;
+}
+
+.mealScreenshot {
+    text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+    img {
+        width: 65%;
+    }
+    div {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    section {
+        margin: 25px 100px 25px 100px;
+    }
+    #publicsafety {
+        font-size: 18px;
+        align-self: flex-start;
+    }
+    .date {
+        color: white;
+    }
+    .public {
+        display: flex;
+        flex-direction: column;
+        margin: 75px 100px;
+        line-height: 1.5em;
+    }
+}
+    @media only screen and (max-width: 420px) {
+        .mealGenerator {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .mealScreenshot {
+            margin-top: 25px;
+        }
+        section {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
