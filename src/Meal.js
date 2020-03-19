@@ -23,9 +23,10 @@ export default function Meal(){
                     <a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">{'<live app>'}</a>
                 </p>
             </div>
+            <div className="mealGenerator">
             <Carousel 
+            dynamicHeight={true}
             showThumbs={false} 
-            dynamicHeight={true} 
             showStatus={false} 
             infiniteLoop={true} 
             className="mealScreenshot">
@@ -39,6 +40,7 @@ export default function Meal(){
                 <img src={meal3} alt="meal list"/>
                 </div>
             </Carousel>
+            </div>
         </section>
  )
 }

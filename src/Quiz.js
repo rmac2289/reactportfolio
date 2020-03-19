@@ -1,5 +1,10 @@
 import React from 'react';
 import quizapp from './images/quizAppIncorrect.png';
+import quizapp2 from './images/quizAppCorrect.png'
+import quizapp3 from './images/quizApp.png';
+import quizapp4 from './images/quizAppTryAgain.png';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import './projects.css';
 
 export default function Quiz(){
@@ -21,7 +26,24 @@ export default function Quiz(){
                 </p>
             </div>
             <div className="mealGenerator">
-                <img src={quizapp} alt="quiz app incorrect answer"/>
+            <Carousel 
+            showThumbs={false} 
+            showStatus={false} 
+            infiniteLoop={true} 
+            className="mealScreenshot">
+                <div>
+                <img src={quizapp} alt="incorrect answer"/>
+                </div>
+                <div>
+                <img src={quizapp2} alt="correct answer"/>
+                </div>
+                <div>
+                <img src={quizapp3} alt="home page"/>
+                </div>
+                <div>
+                <img src={quizapp4} alt="try again"/>
+                </div>
+            </Carousel>
             </div>
         </section>
     )

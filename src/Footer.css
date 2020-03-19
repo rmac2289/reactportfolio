@@ -38,8 +38,3 @@ footer ul li a img {
     font-family: "Oswald", Sans-serif;
 }
 
-@media only screen and (max-width: 420px) {
-    #contactMe {
-        display: none;
-    }
-}

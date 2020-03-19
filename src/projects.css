@@ -3,7 +3,9 @@
 }
 
 .mealGenerator {
-    text-align: center;
+    justify-content: center;
+    max-height: 100%;
+    margin-top: 25px;
 }
 
 p {
@@ -61,7 +63,8 @@ section {
     opacity: .9;
 }
 .mealScreenshot {
-    max-height: 850px;
+    max-height: 680px;
+    align-self: center;
 }
 img {
     width: 100%;
@@ -90,9 +93,13 @@ img {
 
 .mealScreenshot {
     text-align: center;
+    max-width: 600px;
 }
 
 @media only screen and (min-width: 720px) {
+    .mealGenerator {
+        margin-top: 25px;
+    }
     img {
         width: 65%;
     }
