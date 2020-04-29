@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import meal from './images/mealscreenshot.png';
 import meal2 from './Screenshots/ingredientscreenshot copy.png';
 import meal3 from './Screenshots/listscreenshot.png';
@@ -25,6 +25,7 @@ export default function Meal(){
             </div>
             <div className="mealGenerator">
             <Carousel 
+            transitionTime={600}
             dynamicHeight={true}
             showThumbs={false} 
             showStatus={false} 

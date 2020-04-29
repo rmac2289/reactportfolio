@@ -1,12 +1,11 @@
 footer {
+    padding-top: 2%;
     margin-top: 3%;
     border-top: 3px solid #12343b;
     background: linear-gradient(rgb(245, 238, 226), white, white, white);
     height: 120px;
     display: flex;
-    justify-content: center;
 }
-
 footer ul {
     display: flex;
     justify-content: center;
@@ -20,11 +19,11 @@ footer ul li {
 }
 
 footer ul li a img:hover {
-    box-shadow: .5px .5px 1.5px .5px #12343b;
+    box-shadow: .2px .2px .2px #12343b;
     cursor: pointer;
-    height: 53px;
-    width: 53px;
-    transition: .25s;
+    height: 46.5px;
+    width: 46.5px;
+    transition: .15s;
 }
 
 footer ul li a img {
@@ -32,9 +31,3 @@ footer ul li a img {
     width: 48px;
     border-radius: 50%;
 }
-
-#contactMe {
-    font-size: 1.5em;
-    font-family: "Oswald", Sans-serif;
-}
-

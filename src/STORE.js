@@ -20,7 +20,7 @@ const STORE = {paragraphs: {
     In addition, the people skills I have built through speaking with both citizens and public safety
     employees will
     be valuable moving forward.`,
-    experience2: `Technically speaking - I have experience with HTML, CSS, JavaScript, and the jQuery library. I am
+    experience2: `Technically speaking - I have experience with HTML, CSS, JavaScript, jQuery and React. I am
     continuing to learn new methods and languages daily - I am highly adaptable and I learn quickly. I
     believe
     I could be an asset on any web development team; reach out to me via my contact links below.`

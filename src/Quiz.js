@@ -27,6 +27,7 @@ export default function Quiz(){
             </div>
             <div className="mealGenerator">
             <Carousel 
+            transitionTime={600}
             showThumbs={false} 
             showStatus={false} 
             infiniteLoop={true} 

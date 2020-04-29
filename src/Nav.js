@@ -1,14 +1,19 @@
 import React from 'react';
 import './Nav.css';
+import { Link } from 'react-router-dom'
+
+
 
 export default function Nav(){
     return (
         <nav>
-        <ul class="links">
-            <li><a id="about" href="#">about</a></li>
-            <li><a id="blog" href="https://ross-scott-macdonald.com/blog">blog</a></li>
-            <li><a id="projects" href="#">portfolio</a></li>
-            <li><a id="contact" href="#">contact</a></li>
+        <ul className="links">
+            <li><Link to='/'>home</Link></li>
+            <li><Link to="/about">about</Link></li>
+            <li><a id="blog" href="https://ross-scott-macdonald.com/blog" target="_blank" rel="noopener noreferrer">blog</a></li>
+            <li><a id="resume" href="https://ross-scott-macdonald.com/resume.pdf" target="_blank" rel="noopener noreferrer">resume</a></li>
+            <li><Link className="projects" to="/projects" >projects</Link></li>
+            <li><Link className="contact" to="/contact">contact</Link></li> 
         </ul>
     </nav>
     )

@@ -1,20 +1,22 @@
 section h4 {
     color: #12343b;
     text-align: center;
-    font-size: 2em;
+    font-size: 50px !important;
     padding-bottom: 15px;
     letter-spacing: 2.5px;
 }
-
+.beforesection1 {
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
 section {
     min-height: 200px;
     padding: 3% 0;
-    margin: 25px 100px 25px 100px;
-    text-align: left;
     background: none;
     opacity: .9;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-
 .section1, .section2 {
     font-size: 18px;
 }
@@ -23,6 +25,15 @@ p {
     font-family: "Quattrocento", serif;
     padding: 20px;
     line-height: 1.5em;
+}
+@media only screen and (min-width: 420px){
+
+
+
+section {
+    margin: 25px 100px 25px 100px;
+ }   
+    
 }
 
 @media only screen and (min-width: 720px) {
@@ -34,23 +45,21 @@ p {
     section {
         margin: 25px 100px 25px 100px;
     }
+    .beforesection1 {
+        display: flex;
+        flex-direction: column;
+    }
     .section1 {
-        width: 50%;
-        margin: 35px 0 0 100px;
-        border-right: 2.5px solid #12343b;
-        padding-right: 2%;
+        width: 65%;
+        margin: 20px auto 0 auto;
+        border-bottom: 2px solid #12343b;
+        
+        
     }
     .section2 {
-        width: 50%;
-        margin: 35px 100px 0 0;
-        border-left: 2.5px solid #12343b;
-        padding-left: 2%;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    section {
-        margin-left: 50px;
-        margin-right: 50px;
+        width: 65%;
+        margin: 20px auto 0 auto;
+       
+        
     }
 }

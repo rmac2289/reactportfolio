@@ -1,30 +1,22 @@
 import React from 'react';
-import Nav from './Nav';
-import './App.css';
-import Footer from './Footer';
 import Aboutexperience from './Aboutexperience';
-import Meal from './Meal';
-import Quiz from './Quiz';
+import HomePage from './HomePage'
+import Contact from './Contact'
+import { Route, Switch } from 'react-router-dom'
+import PageNotFound from './PageNotFound'
+import Projects from './Projects'
+
 
 function App() {
   return (
     <div className="App">
-      <body className="body">
-    <Nav />
-    <main>
-        <header role="banner">
-            <h1 className="header">HI, I'M ROSS</h1>
-            <h2 className="header">full stack web developer in the San Francisco bay area</h2>
-        </header>
-        <Aboutexperience />
-        <section className="projectsHeader">
-            <h4>projects</h4>
-        </section>
-        <Meal />
-        <Quiz />    
-    </main>
-    <Footer />
-</body>
+      <Switch>
+        <Route exact path="/about" component={Aboutexperience}/>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/projects" component={Projects} />
+        <Route component={PageNotFound} />
+      </Switch>
     </div>
   );
 }

@@ -20,25 +20,33 @@ nav {
   }
   
   nav ul li {
-    margin-right: 75px;
+    margin-right: 30px;
   }
   
-  nav ul li a {
-    text-decoration: none;
+  nav ul li a, .about, .projects, .contact {
+    text-decoration: none !important;
     color: black;
+    letter-spacing: .07em;
+    font-size: 1.15em;
   }
   
-  nav ul li a:hover {
-    color: #2d545e;
+  nav ul li a:hover, .about:hover, .projects:hover, .contact:hover {
+    text-decoration: none;
+    color: #2d545e !important;
     cursor: pointer;
-    transition: .75s;
+    transition: .5s;
+    text-shadow:.5px .5px .5px #12343b;
   }
 
-  @media only screen and (max-width: 420px) {
+  @media only screen and (max-width: 520px) {
     nav ul {
       justify-content: center;
     }
     nav ul li {
       margin: auto;
+      font-size: .6em;
+      margin-top: 12px;
     }
+
   }
+  

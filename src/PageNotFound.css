@@ -1,0 +1,28 @@
+.ohno {
+    text-align: center;
+    padding-top: 60px;
+}
+.notfoundsection p {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.notfoundsection {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.dinosaurSection {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cat {
+    opacity: 1;
+    height: 400px;
+    width: 382px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}    
