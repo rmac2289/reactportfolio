@@ -3,9 +3,8 @@ import './Aboutexperience.css';
 import Nav from './Nav'
 import Footer from './Footer'
 import './PageNotFound.css'
-import dinosaur from './images/dinosaur2.png'
-import guy from './images/home-run.png'
 import cat2 from './images/cat2.jpeg'
+import Burger from './Burger'
 
 
 
@@ -14,11 +13,12 @@ export default function PageNotFound() {
         <div className="App">
             <div id="body">
                 <main>
+                    <Burger />
                     <Nav />
                     <div className="notfoundsection">
-                        <section class="dinosaurSection">
+                        <section className="dinosaurSection">
                             <h1 className="ohno">Oh dear, you seem lost. </h1>
-                            <div class="dinosaur">
+                            <div className="dinosaur">
                                 <img id="cat" src={cat2} alt="cat" />
                                 {/*<img id="dino" src={dinosaur} alt="dinosaur" />
                                 <img id="person" src={guy} alt="running man" /> */}

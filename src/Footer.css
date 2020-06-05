@@ -3,8 +3,10 @@ footer {
     margin-top: 3%;
     border-top: 3px solid #12343b;
     background: linear-gradient(rgb(245, 238, 226), white, white, white);
-    height: 120px;
+    height: 90px;
     display: flex;
+    align-items: center;
+
 }
 footer ul {
     display: flex;
@@ -18,16 +20,15 @@ footer ul li {
     margin-right: 30px;
 }
 
-footer ul li a img:hover {
-    box-shadow: .2px .2px .2px #12343b;
+.fontawesome:hover {
+    color: #193a41;
+    transform: translateX(5px) rotate(10deg); 
     cursor: pointer;
-    height: 46.5px;
-    width: 46.5px;
-    transition: .15s;
 }
 
-footer ul li a img {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
+.fontawesome{
+    color: rgb(0,0,0,0.8);
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
 }

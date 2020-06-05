@@ -1,0 +1,33 @@
+#accordion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+.card-body {
+    background: radial-gradient(white, rgb(245, 238, 226));
+}
+.card-header {
+    font-family: "Oswald", sans-serif;
+    background: #12343b;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: .75s linear; 
+}
+.card-header:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transform: scale(1,1.05) translateX(2px) translateY(2px);
+    background: #0c2429;
+}
+.accordionicon{
+    margin-left: 10px;
+}
+
+
+
+.btn-link:hover, .btn:hover {
+    text-decoration: none !important;
+}

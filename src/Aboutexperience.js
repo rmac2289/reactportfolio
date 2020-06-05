@@ -3,6 +3,7 @@ import './Aboutexperience.css';
 import STORE from './STORE';
 import Nav from './Nav'
 import Footer from './Footer'
+import Burger from './Burger'
 
 
 
@@ -11,7 +12,8 @@ export default function Aboutexperience(){
         <div className="App">
         <div id="body">
         <main>
-        <Nav />
+        <Burger id="burger"/>
+        <Nav id="nav"/>
         <div className="beforesection1">
         <section className="section1">
                 <h4>about me</h4>

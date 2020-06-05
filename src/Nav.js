@@ -1,7 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import { Link } from 'react-router-dom'
-
+  
 
 
 export default function Nav(){
@@ -18,3 +18,4 @@ export default function Nav(){
     </nav>
     )
 }
+

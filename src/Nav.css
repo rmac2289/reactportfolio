@@ -6,6 +6,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    display: none !important;
     z-index: 10;
     border-bottom: 3px solid #12343b;
     background: linear-gradient(white, white, white, rgb(245, 238, 226));
@@ -28,24 +29,20 @@ nav {
     color: black;
     letter-spacing: .07em;
     font-size: 1.15em;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
   }
   
   nav ul li a:hover, .about:hover, .projects:hover, .contact:hover {
     text-decoration: none;
     color: #2d545e !important;
     cursor: pointer;
-    transition: .5s;
-    text-shadow:.5px .5px .5px #12343b;
   }
 
-  @media only screen and (max-width: 520px) {
-    nav ul {
-      justify-content: center;
-    }
-    nav ul li {
-      margin: auto;
-      font-size: .6em;
-      margin-top: 12px;
+  @media only screen and (min-width: 520px) {
+    nav {
+      display: block !important;
     }
 
   }

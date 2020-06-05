@@ -7,6 +7,7 @@ import './App.css'
 import Footer from './Footer';
 import Nav from './Nav';
 import { UncontrolledAlert } from 'reactstrap';
+import Burger from './Burger';
 
 
 class Contact extends Component {
@@ -53,6 +54,7 @@ class Contact extends Component {
       return (
         <div className="App" id="contactID">
         <div id="body">
+        <Burger />
         <Nav />
         <main id="main">
         <div  className="form">
