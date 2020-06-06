@@ -35,7 +35,7 @@
 #bullhorn {
     margin-right: 10px;
 }
-@media only screen and (min-width: 520px){
+@media only screen and (min-width: 720px){
     .burgerDiv {
         display: none;
     }

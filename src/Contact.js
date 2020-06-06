@@ -62,34 +62,39 @@ class Contact extends Component {
             <h1 className="p-heading1">contact me</h1>
             <Form id="form" onSubmit={this.handleSubmit.bind(this)}>
               <FormGroup className="formGroup" controlid="formBasicEmail">
+                <label for="email">email</label>
                 <Input
+                  id="email"
                   type="email"
                   name="email"
                   value={this.state.email}
                   onChange={this.handleChange.bind(this, 'email')}
                   className="text-primary"
-                  placeholder="email"
+                  placeholder="abc123@email.com"
                 />
               </FormGroup>
   <FormGroup className="formGroup" controlid="formBasicName">
+                <label for="name">name</label>
                 <Input
+                  id="name"
                   type="text"
                   name="name"
                   value={this.state.name}
                   onChange={this.handleChange.bind(this, 'name')}
                   className="text-primary"
-                 
-                  placeholder="name"
+                  placeholder="John Smith"
                 />
               </FormGroup>
   <FormGroup className="formGroup" controlid="formBasicMessage">
+  <label for="message">message</label>
                 <Input
+                  id="message"
                   type="textarea"
                   name="message"
                   className="text-primary"
                   onChange={this.handleChange.bind(this, 'message')}
                   value={this.state.message}
-                  placeholder="message"
+                  placeholder="Wow, what a beautiful website!"
                 />
               </FormGroup>
               {this.state.success}

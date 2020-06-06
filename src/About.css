@@ -42,12 +42,12 @@ section {
 }
 .techlist {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .tech {
     text-align: center;
-    line-height: 3em;
+    line-height: 4em;
 }
 p {
     font-family: "Quattrocento", serif;
@@ -68,6 +68,9 @@ section {
         display: flex;
         margin: 0;
         padding: 0;
+    }
+    .techlist {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     section {
         margin: 25px 100px 25px 100px;

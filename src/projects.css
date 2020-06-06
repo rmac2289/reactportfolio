@@ -19,27 +19,28 @@ p {
 #publicsafety {
     font-size: 18px;
 }
-
 .repoLinks {
-    color: #12343b;
+    color: white;
     font-family: "Oswald", sans-serif;
     text-decoration: none;
     font-size: 30px;
     transition-property: all;
-    transition-duration: .5s;
+    transition-duration: 1s;
     transition-timing-function: linear;
+    
 }
 
 .repoLinks:hover {
-    color: #2d545e;
+    color: rgb(240, 198, 150);
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 .public h3 {
     font-size: 35px;
     font-family: "Oswald", sans-serif;
-    color: #12343b;
+    color: white;
     margin-left: 25px;
 }
 
@@ -49,6 +50,7 @@ p {
     flex-direction: column;
     line-height: 1.5em;
     margin-top: 25px;
+    background: #051114;
 }
 
 section h4 {
@@ -62,7 +64,7 @@ section h4 {
 section {
     min-height: 200px;
     padding: 3% 0;
-    margin: 25px 100px 25px 100px;
+    margin: 25px 20px 25px 20px;
     text-align: left;
     background: none;
     opacity: .9;
@@ -89,12 +91,16 @@ img {
     max-height: 100%;
     max-width: 100%;
 }
-
+.githublist {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
 .public {
     padding-top: 20px;
-    color: black;
-    border: 1px solid #c89666;
+    color: white;
     border-radius: 10px;
+    box-shadow: 0px 11px 21px -8px rgba(0,0,0,0.7);
 }
 
 .mealScreenshot {
@@ -115,7 +121,7 @@ img {
         padding: 0;
     }
     section {
-        margin: 25px 100px 25px 100px;
+        margin: 25px 50px 25px 50px;
     }
     #publicsafety {
         font-size: 18px;

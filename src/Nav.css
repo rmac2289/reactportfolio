@@ -28,7 +28,7 @@ nav {
     text-decoration: none !important;
     color: black;
     letter-spacing: .07em;
-    font-size: 1.15em;
+    font-size: 1em;
     transition-property: all;
     transition-duration: .5s;
     transition-timing-function: linear;
@@ -40,10 +40,9 @@ nav {
     cursor: pointer;
   }
 
-  @media only screen and (min-width: 520px) {
+  @media only screen and (min-width: 720px) {
     nav {
       display: block !important;
     }
-
   }
   

@@ -15,12 +15,14 @@ export default function Hearsay(){
                 <p id="publicsafety">A full-stack application using Node.js on the backend and React
                 on the frontend.
                 <br/>
-                    <a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-app"
-                        target="_blank" rel="noopener noreferrer">{'<client side repo>'}</a>
-                    <a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-server"
-                        target="_blank" rel="noopener noreferrer">{'<server side repo>'}</a>
-                    <a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer">{'<live app>'}</a>
-                </p>
+                <ul className="githublist">
+                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-app"
+                        target="_blank" rel="noopener noreferrer">{'client side repo'}</a></li>
+                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-server"
+                        target="_blank" rel="noopener noreferrer">{'server side repo'}</a></li>
+                    <li><a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer">{'live app'}</a></li>
+                </ul>
+                </p> 
             </div>
             <div className="mealGenerator">
             <Carousel 

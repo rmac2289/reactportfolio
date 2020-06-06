@@ -18,9 +18,11 @@ export default function Meal(){
                     <br/>- Give the user nutritional information on the daily meals
                     <br/>- Accept input from the user to provide ingedrients that can be substituted for one another
                     <br/><br/>
-                    <a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/mealGenerator"
-                        target="_blank" rel="noopener noreferrer">{'<github repo>'}</a>
-                    <a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">{'<live app>'}</a>
+                    <ul className="githublist">
+                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/mealGenerator"
+                        target="_blank" rel="noopener noreferrer">github repo</a></li>
+                    <li><a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">live app</a></li>
+                    </ul>
                 </p>
             </div>
             <div className="mealGenerator">
