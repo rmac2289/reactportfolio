@@ -1,5 +1,5 @@
 import React from 'react';
-import './Aboutexperience.css';
+import './About.css';
 import STORE from './STORE';
 import Nav from './Nav'
 import Footer from './Footer'
@@ -7,7 +7,7 @@ import Burger from './Burger'
 
 
 
-export default function Aboutexperience(){
+export default function About(){
     return (
         <div className="App">
         <div id="body">
@@ -21,14 +21,6 @@ export default function Aboutexperience(){
                     <br/>
                     <br/>
                     {STORE.paragraphs.aboutMe2}
-                </p>
-            </section>
-            <section className="section2">
-                <h4>experience</h4>
-                <p>{STORE.paragraphs.experience1}
-                    <br/>
-                    <br/>
-                    {STORE.paragraphs.experience2}
                 </p>
             </section>
         </div>

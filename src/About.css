@@ -17,10 +17,38 @@ section {
     margin-left: 50px;
     margin-right: 50px;
 }
+#express {
+    font-family: "helvetica neue";
+}
+#postgres {
+    height: 70px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jquery {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#knex {
+    width: 120px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .section1, .section2 {
     font-size: 18px;
 }
+.techlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.tech {
+    text-align: center;
+    line-height: 3em;
+}
 p {
     font-family: "Quattrocento", serif;
     padding: 20px;
@@ -51,7 +79,6 @@ section {
     .section1 {
         width: 65%;
         margin: 20px auto 0 auto;
-        border-bottom: 2px solid #12343b;
         
         
     }
