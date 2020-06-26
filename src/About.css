@@ -17,6 +17,18 @@ section {
     margin-left: 50px;
     margin-right: 50px;
 }
+.App {
+    animation: fadeIn .75s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0.1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
 #express {
     font-family: "helvetica neue";
 }
