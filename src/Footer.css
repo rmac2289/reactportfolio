@@ -1,8 +1,7 @@
 footer {
     padding-top: 2%;
     margin-top: 3%;
-    border-top: 3px solid #12343b;
-    background: linear-gradient(rgb(245, 238, 226), white, white, white);
+    background: #687864;
     height: 90px;
     display: flex;
     align-items: center;
@@ -21,13 +20,13 @@ footer ul li {
 }
 
 .fontawesome:hover {
-    color: #193a41;
-    transform: translateX(5px) rotate(10deg); 
+    color: #8fc1e3;
+    transform: translateX(5px) rotate(5deg); 
     cursor: pointer;
 }
 
 .fontawesome{
-    color: rgb(0,0,0,0.8);
+    color: white;
     transition-property: all;
     transition-duration: .5s;
     transition-timing-function: linear;

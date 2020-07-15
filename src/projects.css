@@ -1,6 +1,16 @@
 .section3 a, .section4 a {
     margin-right: 20px;
 }
+.section3, .section4 {
+    animation: test 1s linear;
+    margin-top: 0;
+}
+@keyframes test {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px)
+    }
+}
 
 .mealGenerator {
     justify-content: center;
@@ -20,7 +30,7 @@ p {
     font-size: 18px;
 }
 .repoLinks {
-    color: white;
+    color: #687864;
     font-family: "Oswald", sans-serif;
     text-decoration: none;
     font-size: 30px;
@@ -40,7 +50,7 @@ p {
 .public h3 {
     font-size: 35px;
     font-family: "Oswald", sans-serif;
-    color: white;
+    color: #31708e;
     margin-left: 25px;
 }
 
@@ -50,11 +60,13 @@ p {
     flex-direction: column;
     line-height: 1.5em;
     margin-top: 25px;
-    background: #051114;
+    background: #f7f9fb;
+    border: 3px solid #31708e;
+    
 }
 
 section h4 {
-    color: #12343b;
+    color: #31708e;
     text-align: center;
     font-size: 2em;
     padding-bottom: 15px;
@@ -63,7 +75,7 @@ section h4 {
 
 section {
     min-height: 200px;
-    padding: 3% 0;
+    padding: 3% 0 5% 0;
     margin: 25px 20px 25px 20px;
     text-align: left;
     background: none;
@@ -98,7 +110,7 @@ img {
 }
 .public {
     padding-top: 20px;
-    color: white;
+    color: #31708e;
     border-radius: 10px;
     box-shadow: 0px 11px 21px -8px rgba(0,0,0,0.7);
 }

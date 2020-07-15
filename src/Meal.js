@@ -11,19 +11,21 @@ export default function Meal(){
 <section className="section3">
             <div className="public">
                 <h3>meal generator</h3>
-                <p id="publicsafety">This is an app using HTML/CSS, JavaScript, jQuery and calls to two separate APIs in
+                <div id="publicsafety">
+                    <p>This is an app using HTML/CSS, JavaScript, jQuery and calls to two separate APIs in
                     order to:
                     <br/>- Accept input from the user on diet restrictions
                     <br/>- Produce a list of breakfast, lunch, and dinner for 7 days with links to recipes
                     <br/>- Give the user nutritional information on the daily meals
                     <br/>- Accept input from the user to provide ingedrients that can be substituted for one another
                     <br/><br/>
-                    <ul className="githublist">
-                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/mealGenerator"
-                        target="_blank" rel="noopener noreferrer">github repo</a></li>
-                    <li><a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">live app</a></li>
-                    </ul>
-                </p>
+                    </p>
+                    <div className="githublist">
+                        <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/mealGenerator"
+                        target="_blank" rel="noopener noreferrer">github repo</a></div>
+                        <div><a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">live app</a></div>
+                    </div>
+                </div>
             </div>
             <div className="mealGenerator">
             <Carousel 

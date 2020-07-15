@@ -1,6 +1,6 @@
 nav {
     padding: 1% 0;
-    color: black;
+    color: white;
     height: 70px;
     position: fixed;
     top: 0;
@@ -8,8 +8,8 @@ nav {
     right: 0;
     display: none !important;
     z-index: 10;
-    border-bottom: 3px solid #12343b;
-    background: linear-gradient(white, white, white, rgb(245, 238, 226));
+    background: #687864;
+    box-shadow: 0 8px 6px -6px rgb(0,0,0,.6)
   }
   
   nav ul {
@@ -26,7 +26,7 @@ nav {
   
   nav ul li a, .about, .projects, .contact {
     text-decoration: none !important;
-    color: black;
+    color: white;
     letter-spacing: .07em;
     font-size: 1em;
     transition-property: all;
@@ -36,7 +36,7 @@ nav {
   
   nav ul li a:hover, .about:hover, .projects:hover, .contact:hover {
     text-decoration: none;
-    color: #2d545e !important;
+    color: #5085A5 !important;
     cursor: pointer;
   }
 

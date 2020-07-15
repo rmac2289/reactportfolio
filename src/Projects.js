@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import Footer from './Footer'
 import './projects.css'
-import ProjectAccordion from './Accordion';
+import Accordion from './Accordion';
 import Burger from './Burger';
 
 export default function Projects(){
@@ -16,7 +16,7 @@ export default function Projects(){
                  <h4>projects</h4>
                 
                  </section> 
-                 <ProjectAccordion />
+                 <Accordion />
                     
                 </main>
             </div>

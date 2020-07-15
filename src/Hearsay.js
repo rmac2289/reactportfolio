@@ -12,17 +12,19 @@ export default function Hearsay(){
 <section className="section3">
             <div className="public">
                 <h3>hearsay</h3>
-                <p id="publicsafety">A full-stack application using Node.js on the backend and React
+                <div>
+                    <p id="publicsafety">A full-stack application using Node.js on the backend and React
                 on the frontend.
-                <br/>
-                <ul className="githublist">
-                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-app"
-                        target="_blank" rel="noopener noreferrer">{'client side repo'}</a></li>
-                    <li><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-server"
-                        target="_blank" rel="noopener noreferrer">{'server side repo'}</a></li>
-                    <li><a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer">{'live app'}</a></li>
-                </ul>
-                </p> 
+                    <br/>
+                    </p>
+                <div className="githublist">
+                    <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-app"
+                        target="_blank" rel="noopener noreferrer">{'client side repo'}</a></div>
+                    <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-server"
+                        target="_blank" rel="noopener noreferrer">{'server side repo'}</a></div>
+                    <div><a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer">{'live app'}</a></div>
+                </div>
+                </div> 
             </div>
             <div className="mealGenerator">
             <Carousel 
