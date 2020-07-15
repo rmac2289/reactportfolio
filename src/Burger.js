@@ -32,7 +32,7 @@ class Burger extends Component {
             opacity: 0.9,
             display:'flex',
             alignItems:'center',
-            background: 'black',
+            background: '#404b3e',
             width: '100%',
             color: 'white',
             fontFamily:'Oswald, sans-serif',

@@ -4,6 +4,8 @@
 .section3, .section4 {
     animation: test 1s linear;
     margin-top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 @keyframes test {
     0% {
