@@ -1,16 +1,20 @@
 footer {
-    padding-top: 3%;
+    
     background: #687864;
     height: 70px;
     display: flex;
     align-items: center !important;
 
 }
+.icons {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
 footer ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    align-items: center;
+    
 }
 
 footer ul li {
@@ -29,4 +33,5 @@ footer ul li {
     transition-property: all;
     transition-duration: .5s;
     transition-timing-function: linear;
+    font-size: 22px;
 }

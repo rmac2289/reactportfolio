@@ -9,7 +9,7 @@ nav {
     display: none !important;
     z-index: 10;
     background: #687864;
-    box-shadow: 0 8px 6px -6px rgb(0,0,0,.6)
+    box-shadow: 0 8px 4px -6px rgb(0,0,0,.4)
   }
   
   nav ul {

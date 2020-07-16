@@ -20,7 +20,6 @@ export default function Projects(){
                     
                 </main>
             </div>
-            <Footer />
         </div>
     )
 }
