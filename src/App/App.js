@@ -5,7 +5,6 @@ import HomePage from '../HomePage/HomePage'
 import Contact from '../Contact/Contact'
 import { Route, Switch } from 'react-router-dom'
 import PageNotFound from '../PageNotFound/PageNotFound'
-import Projects from '../Projects/Projects'
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/contact" component={Contact} />
-        <Route exact path="/projects" component={Projects} />
         <Route component={PageNotFound} />
       </Switch>
     </div>

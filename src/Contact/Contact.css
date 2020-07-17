@@ -8,6 +8,9 @@
 #main {
     min-width: 100%;
 }
+#email,#name,#message  {
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.3)
+}
 .App {
     min-width: 100%;
     display:flex;

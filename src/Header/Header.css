@@ -14,9 +14,8 @@ header {
     10px 0px 16px 0px rgb(0,0,0,0.4);
     border-radius: 10px;
     background: linear-gradient(45deg, rgb(64, 75, 62) 0 15%, #f7f9fb 0 80%, #31708e 50% 100%);
-
-    
   }
+  
   .latest-work {
     font-size: 36px;
     color: #31708e;
@@ -38,6 +37,7 @@ header {
   animation: flash 2s ease-in-out infinite; 
   font-size: 40px;
 }
+
  
 @keyframes flash {
   0% {
@@ -65,11 +65,12 @@ header {
   header h1, header h2 {
     margin-left: 25px;
     margin-right: 25px;
-    color: #31708e
-  }
+    color: #31708e;
+     }
 
   header h1 {
     font-size: 3.5em;
+    color: rgb(128, 0, 0,0.6);
   }
   header h2 {
     font-size: 1.5em;
@@ -78,7 +79,7 @@ header {
     header {
       margin: 150px auto 10px auto;
       width: 80%;
-      background: linear-gradient(45deg, rgb(64, 75, 62) 0 10%, #f7f9fb 0 70%, #31708e 50% 100%);
+      background: linear-gradient(45deg, rgb(64, 75, 62) 0 10%, rgb(247, 249, 251) 0 70%, rgb(49, 112, 142,0.9) 50% 100%);
     }
     header h1 {
       letter-spacing: .05em;
