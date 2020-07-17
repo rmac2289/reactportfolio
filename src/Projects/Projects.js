@@ -14,7 +14,7 @@ export default function Projects(){
                 <Nav />
                 <main className="main-border">
                 <section className="projectsHeader">
-                 <h4>projects</h4>                
+                 <h4 className="projects-header">projects</h4>                
                  </section> 
                  <Accordion />
                     

@@ -8,6 +8,8 @@ import Footer from '../Footer/Footer';
 import Nav from '../Nav/Nav';
 import { UncontrolledAlert } from 'reactstrap';
 import Burger from '../Burger/Burger';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWordpress, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 class Contact extends Component {

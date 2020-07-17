@@ -183,7 +183,7 @@ class Burger extends Component {
       const styles={
         container: {
           position: 'absolute',
-          top: 0,
+          top: '15px',
           left: 0,
           height: this.state.open ? '60%': 0,
           width: '100vw',

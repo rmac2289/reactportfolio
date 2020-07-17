@@ -20,7 +20,7 @@ export default function Accordion() {
   const toggleOne = () => setOneIsOpen(!oneIsOpen)
   const toggleTwo = () => setTwoIsOpen(!twoIsOpen)
   const toggleThree = () => setThreeIsOpen(!threeIsOpen)
-
+ 
   return (
     <div className="accordion-container">
       <div className="accordion-button" onClick={toggleOne}>
