@@ -19,6 +19,7 @@ header {
 .arrow {
   position: absolute;
   left: 50%;
+  top: 56%;
   width: 400px;
   margin-left: -200px;
   display: flex;
