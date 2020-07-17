@@ -1,0 +1,54 @@
+.footer {
+    background: rgb(64, 75, 62);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+.footer div p {
+    color: white;
+    font-size: 12px;
+}
+.icons {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+footer ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fontawesome:hover {
+    color: #8fc1e3;
+    transform: translateX(5px) rotate(5deg); 
+    cursor: pointer;
+}
+
+.fontawesome{
+    color: white;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    font-size: 22px;
+}
+@media only screen and (min-width: 520px){
+    .fontawesome {
+        font-size: 32px;
+    }
+    footer ul li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .footer div p {
+        font-size: 16px;
+    }
+}

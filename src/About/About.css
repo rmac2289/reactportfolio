@@ -1,0 +1,106 @@
+section h4 {
+    color: #12343b;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 15px;
+    letter-spacing: 2.5px;
+}
+.beforesection1 {
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+section {
+    min-height: 200px;
+    padding: 3% 0;
+    background: none;
+    opacity: .9;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.App {
+    animation: fadeIn .75s;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0.1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+#express {
+    font-family: "helvetica neue";
+}
+#postgres {
+    height: 70px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jquery {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#knex {
+    width: 120px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section1, .section2 {
+    font-size: 18px;
+}
+.techlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tech {
+    text-align: center;
+    line-height: 4em;
+}
+p {
+    font-family: "Quattrocento", serif;
+    padding: 20px;
+    line-height: 1.5em;
+}
+@media only screen and (min-width: 420px){
+
+
+
+section {
+    margin: 25px 100px 25px 100px;
+ }   
+    
+}
+@media only screen and (min-width: 720px) {
+    div {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .techlist {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    section {
+        margin: 25px 100px 25px 100px;
+    }
+    .beforesection1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1 {
+        width: 65%;
+        margin: 20px auto 0 auto;
+        
+        
+    }
+    .section2 {
+        width: 65%;
+        margin: 20px auto 0 auto;
+       
+        
+    }
+}
