@@ -7,6 +7,7 @@ import Burger from '../Burger/Burger';
 import Projects from '../Projects/Projects';
 import Header from '../Header/Header';
 
+
 function HomePage(){
     return (
     <div id="home" className="App">

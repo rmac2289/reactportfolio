@@ -3,11 +3,12 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
     width: 99%;
     margin-left:auto;
     margin-right: auto;
     margin-top: 60px;
-    min-height: 300px;
+    min-height: 350px;
     max-height: 450px;
     box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
     10px 0px 16px 0px rgb(0,0,0,0.4);
@@ -16,21 +17,28 @@ header {
 
     
   }
-.arrow {
+  .latest-work {
+    font-size: 36px;
+    color: #31708e;
+    font-weight: 900;
+  }
+  .arrow {
   position: absolute;
+  top: 420px;
   left: 50%;
-  top: 56%;
-  width: 400px;
-  margin-left: -200px;
+  margin-left: -125px;
+  width: 250px;
+  height:125px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 75px;
 }
 #hand-down {
   color: rgb(64, 75, 62,0.7);
   animation: flash 2s ease-in-out infinite; 
+  font-size: 40px;
 }
+ 
 @keyframes flash {
   0% {
     color: rgb(64, 75, 62,0.7);
@@ -44,10 +52,7 @@ header {
     transform: translateY(0)
   }
 }
-.latest-work {
-  font-size: 28px;
-  text-align: center;
-}
+
 
   .header-box {
     display: flex;
@@ -55,6 +60,7 @@ header {
     width: 95%;
     margin-right: auto;
     margin-left: auto;
+    padding: 1%;
   }
   header h1, header h2 {
     margin-left: 25px;
@@ -83,4 +89,9 @@ header {
       margin-left: 20px;
     }
     
+  }
+  @media only screen and (min-width: 1024px){
+    .arrow {
+      top: 375px;
+    }
   }
