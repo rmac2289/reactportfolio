@@ -17,7 +17,7 @@ export default function Hearsay(){
                 <h3>hearsay</h3>
                 <div id="publicsafety">
                     <p id="project-p">This application uses React on the frontend with Node.js on the backend. Users can explore 
-                    reviews left by other users involving contacts with law enforcement, sign up and leave their own 
+                    reviews left by other users involving contacts with law enforcement, sign up and leave 
                     reviews, or participate in discussion boards regarding different criminal justice topics. I use JSON web tokens
                     for user authentication, and all data is stored on a PostgreSQL database using APIs written on the Express server.
                     <br/>

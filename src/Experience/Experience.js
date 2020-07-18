@@ -1,6 +1,5 @@
 import React from 'react';
 import '../About/About.css';
-import STORE from '../STORE';
 import Nav from '../Nav/Nav';
 import Footer from '../Footer/Footer';
 import Burger from '../Burger/Burger';
@@ -37,10 +36,18 @@ export default function Experience(){
             <section className="section2">
                 <h4>experience</h4>
                 <p>
-                    {STORE.paragraphs.experience1}
-                    <br/>
-                    <br/>
-                    {STORE.paragraphs.experience2}
+                My most significant experience in web development is through my apprenticeship 
+                with Bloc/Thinkful. Through a mix of learning modules, building and deploying apps, 
+                one-on-one sessions with an experienced mentor, and mock technical interviews, I've 
+                learned an incredible amount. I have several applications that I've built from start 
+                to finish currently deployed to production - they can be viewed on my home page. Creating
+                a functioning application from scratch is extremely rewarding - I look forward to 
+                creating apps independently as well as contributing towards my future development team's success.
+                <br/><br/>
+                Through my previous career, I've learned to quickly make decisions, take control of situations, 
+                lead effectively, communicate with team members, and deal with a highly stressful work environment.
+                I’ve gone from being brand new to becoming a trainer within a year and a supervisor within three years.  
+                I’m ready to put the same efforts that led to those achievements into a career in web development. 
                 </p>
                 <h4>what I've worked with</h4>
                 <ul className="techlist">

@@ -15,10 +15,8 @@ export default function Meal(){
             <div className="public">
                 <h3>meal generator</h3>
                 <div id="publicsafety">
-                    <p id="project-p">This app uses HTML/CSS, JavaScript with jQuery and calls to two separate APIs.
-                    The user inputs requirements for their own diet restrictions including calorie count, diet type, 
-                    and foods to exclude. Given this information the app produces a list of breakfast, lunch, and dinner for seven days with links to recipes
-                    and nutritional information. 
+                    <p id="project-p">This app uses HTML/CSS, JavaScript with jQuery, and calls to two separate APIs. The user inputs requirements for their diet restrictions including calorie count, diet type, 
+and foods to exclude. Given this information, the app produces a list of breakfast, lunch, and dinner for seven days with links to recipes and nutritional information. 
                     <br/><br/>
                     </p>
                     <div className="githublist">
