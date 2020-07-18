@@ -6,23 +6,28 @@ import hearsay4 from '../Screenshots/hearsay4.png'
 import './projects.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import bullhorn from '../images/bullhorn.png'
 
 export default function Hearsay(){
     return (
 <section className="section3">
             <div className="public">
                 <h3>hearsay</h3>
-                <div>
-                    <p id="publicsafety">A full-stack application using Node.js on the backend and React
-                on the frontend.
+                <div id="publicsafety">
+                    <p id="project-p">This application uses React on the frontend with Node.js on the backend. Users can explore 
+                    reviews left by other users involving contacts with law enforcement, sign up and leave their own 
+                    reviews, or participate in discussion boards regarding different criminal justice topics. I use JSON web tokens
+                    for user authentication, and all data is stored on a PostgreSQL database using APIs written on the Express server.
                     <br/>
                     </p>
                 <div className="githublist">
                     <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-app"
-                        target="_blank" rel="noopener noreferrer">{'client side repo'}</a></div>
+                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="project-link-icon" icon={faGithub} />client side repo</a></div>
                     <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/hearsay-server"
-                        target="_blank" rel="noopener noreferrer">{'server side repo'}</a></div>
-                    <div><a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer">{'live app'}</a></div>
+                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="project-link-icon" icon={faGithub} />server side repo</a></div>
+                    <div><a className="repoLinks" href="https://hearsay-app.now.sh/" target="_blank" rel="noopener noreferrer"><img className="project-link-icon" src={bullhorn} alt="picnic table" />live app</a></div>
                 </div>
                 </div> 
             </div>

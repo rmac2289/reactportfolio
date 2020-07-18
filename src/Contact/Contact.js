@@ -8,6 +8,9 @@ import Footer from '../Footer/Footer';
 import Nav from '../Nav/Nav';
 import { UncontrolledAlert } from 'reactstrap';
 import Burger from '../Burger/Burger';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
  
@@ -59,6 +62,15 @@ class Contact extends Component {
         <div  className="form">
           <section id="contactSection">
             <h1 className="p-heading1">contact me</h1>
+            <div className="contact-options-box">
+            <h5>Find me on</h5>
+            <ul className="contact-options">
+              <li className="contact-option"><a href="https://www.linkedin.com/in/rsmacdonald/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="contact-icon" icon={faLinkedin}/>LinkedIn</a></li>
+              <li className="contact-option"><a href="https://www.github.com/rmac2289" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="contact-icon" icon={faGithub}/>GitHub</a></li>
+              <li className="contact-option"><a href="mailto:rmac2289@gmail.com"><FontAwesomeIcon className="contact-icon" icon={faEnvelope}/>Email</a></li>
+            </ul>
+            <h5>or leave a message with the form below.</h5>
+            </div>
             <Form id="form" onSubmit={this.handleSubmit.bind(this)}>
               <FormGroup className="formGroup" controlid="formBasicEmail">
                 <label for="email">email</label>

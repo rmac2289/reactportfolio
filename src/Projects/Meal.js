@@ -5,6 +5,9 @@ import meal3 from '../Screenshots/listscreenshot.png';
 import './projects.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import food from '../images/vegetable.png';
 
 export default function Meal(){
     return (
@@ -12,18 +15,16 @@ export default function Meal(){
             <div className="public">
                 <h3>meal generator</h3>
                 <div id="publicsafety">
-                    <p>This is an app using HTML/CSS, JavaScript, jQuery and calls to two separate APIs in
-                    order to:
-                    <br/>- Accept input from the user on diet restrictions
-                    <br/>- Produce a list of breakfast, lunch, and dinner for 7 days with links to recipes
-                    <br/>- Give the user nutritional information on the daily meals
-                    <br/>- Accept input from the user to provide ingedrients that can be substituted for one another
+                    <p id="project-p">This app uses HTML/CSS, JavaScript with jQuery and calls to two separate APIs.
+                    The user inputs requirements for their own diet restrictions including calorie count, diet type, 
+                    and foods to exclude. Given this information the app produces a list of breakfast, lunch, and dinner for seven days with links to recipes
+                    and nutritional information. 
                     <br/><br/>
                     </p>
                     <div className="githublist">
                         <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/mealGenerator"
-                        target="_blank" rel="noopener noreferrer">github repo</a></div>
-                        <div><a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer">live app</a></div>
+                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="project-link-icon" icon={faGithub}/>github repo</a></div>
+                        <div><a className="repoLinks" href="https://rmac2289.github.io/mealGenerator/" target="_blank" rel="noopener noreferrer"><img className="project-link-icon" src={food} alt="vegetables" />live app</a></div>
                     </div>
                 </div>
             </div>

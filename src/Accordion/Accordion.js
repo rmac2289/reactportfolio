@@ -35,14 +35,18 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleOne}>
-        <p>full stack app for searching through california parks</p>
+        <p>A full stack application for Californians looking to head outdoors. The app allows a user to find
+          parks in their area via several different search methods. I built this 
+          because of what I saw as a shortage of aggregated data on parks run by different agencies (state,
+          national, county, etc.).Through further data aggregation the app will soon be available for other states.  
+        </p>
         <FontAwesomeIcon className="accordion-icon" icon={!oneIsOpen ? faChevronDown : faChevronUp} />
       </div>
       {oneIsOpen && <div className="accordion-1">
         <Parkfinder />
       </div>}
       <div className="accordion-button" onClick={toggleTwo}>
-        <div className="accordion-title"><img id="bullhorn" src={bullhorn} />hearsay</div>
+        <div className="accordion-title"><img id="bullhorn" src={bullhorn} alt="bullhorn icon" />hearsay</div>
         <div className="icon-container">
           <FontAwesomeIcon className="tech-icon" icon={faReact} />
           <FontAwesomeIcon className="tech-icon" icon={faNodeJs} />
@@ -53,7 +57,11 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleTwo}>
-        <p>full stack app for reviewing encounters with law enforcement</p>
+        <p>Hearsay is a full stack application built with social justice in mind. Users can log 
+          encounters with law enforcement and speak on discussion boards about criminal justice issues. This app
+          was built with current events in mind - with so much turmoil and change, I feel we need more venues
+          for people to make their voices heard. 
+        </p>
         <FontAwesomeIcon className="accordion-icon" icon={!twoIsOpen ? faChevronDown : faChevronUp} />
       </div>
       {twoIsOpen && <div className="accordion-2">
@@ -69,7 +77,11 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleThree}>
-        <p>single page app for meal planning based on diet restrictions</p>
+        <p>The meal generator is a single page app that allows the user to create a meal plan for the week.
+          I built this out of necessity - working full time while learning to code has been tough at times; 
+          the meal generator maps out every meal and provides links to recipes, automating a time consuming task
+          for your week. 
+        </p>
         <FontAwesomeIcon className="accordion-icon" icon={!threeIsOpen ? faChevronDown : faChevronUp} />
       </div>
       {threeIsOpen && <div className="accordion-3">

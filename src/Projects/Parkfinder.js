@@ -8,14 +8,17 @@ import signup from '../ParkScreenshots/signup.jpg'
 import './projects.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import picnic from '../images/picnic.png';
 
 export default function Hearsay(){
     return (
 <section className="section3">
             <div className="public">
                 <h3>find your park</h3>
-                <div>
-                    <p id="publicsafety">Find Your Park is a full-stack application using Node.js with Express on the backend and React
+                <div id="publicsafety">
+                    <p id="project-p">Find Your Park is a full-stack application using Node.js with Express on the backend and React
                 on the frontend. The app allows the user to search for California parks by activity, by name, or by choosing a location
                 off the map. Users can sign up for an account and login if they wish to write or read comments made by other users on 
                 individual parks, or if they would like to submit a suggestion for a park to be added to the site. Users are authenticated
@@ -25,10 +28,10 @@ export default function Hearsay(){
                     </p>
                 <div className="githublist">
                     <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/parkfinder-app"
-                        target="_blank" rel="noopener noreferrer">{'client side repo'}</a></div>
+                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="project-link-icon" icon={faGithub} />client side repo</a></div>
                     <div><a id="githubLink" className="repoLinks" href="https://github.com/rmac2289/parkfinder-api"
-                        target="_blank" rel="noopener noreferrer">{'server side repo'}</a></div>
-                    <div><a className="repoLinks" href="https://findyourpark.netlify.app" target="_blank" rel="noopener noreferrer">{'live app'}</a></div>
+                        target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="project-link-icon" icon={faGithub} />server side repo</a></div>
+                    <div><a className="repoLinks" href="https://findyourpark.netlify.app" target="_blank" rel="noopener noreferrer"><img className="project-link-icon" src={picnic} alt="picnic table" />live app</a></div>
                 </div>
                 </div> 
             </div>
