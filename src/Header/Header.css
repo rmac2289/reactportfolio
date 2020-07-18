@@ -27,7 +27,6 @@ header {
     height: 100%;
     opacity: 0.1;
     border-radius: 10px;
-    
     background: linear-gradient(120deg,#31708e 0 10%, white 0 70%, #31708e 50% 100%);
     background-repeat: no-repeat;
     background-position: 50% 0;
@@ -47,8 +46,8 @@ header {
   height: 100%;
   opacity: 0.1;
   border-radius: 10px;
-  
   background: none;
+  animation: random 30s linear infinite;
   background-repeat: no-repeat;
   background-position: 50% 0;
   -ms-background-size: cover;
@@ -126,12 +125,46 @@ header {
       padding: 70px 0;
       background: linear-gradient(30deg,  #31708e 0 45%, white 0 70%, rgb(64, 75, 62) 50% 100%);
     }
+    
     .arrow {
       top: 420px;
     }
     .header:before {
+      animation: random2 28s linear infinite;
       background: linear-gradient(10deg,rgb(64,75,62) 0 10%, white 0 70%, #31708e 50% 100%);
-
+    }
+    .header:after {
+      animation: random 30s linear infinite;
+    }
+    @keyframes random {
+      0% {
+        transform: skewX(0)
+      }
+      25% {
+        
+        transform: skew(35deg, 5deg) translateX(20px)
+      }
+      50% {
+        transform: skewX(-15deg)
+      }
+      75% {
+        transform: skew(25deg,-5deg)
+      }
+    }
+    @keyframes random2 {
+      0% {
+        transform: skewX(5deg)
+      }
+      25% {
+        
+        transform: skew(45deg, -3deg) translateX(-20px)
+      }
+      50% {
+        transform: skewX(10deg)
+      }
+      75% {
+        transform: skew(15deg,5deg)
+      }
     }
     header h1 {
       letter-spacing: .05em;
