@@ -1,7 +1,7 @@
 import React from 'react';
 import './projects.css'
 import Accordion from '../Accordion/Accordion';
-
+import Footer from '../Footer/Footer'
 
 export default function Projects(){
     return (

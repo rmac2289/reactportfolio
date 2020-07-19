@@ -1,10 +1,13 @@
 .footer {
-    background: rgb(64, 75, 62);
+    background: rgb(64, 75, 62,0.7);
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .footer div p {
     color: white;

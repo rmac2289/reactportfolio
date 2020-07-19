@@ -2,11 +2,9 @@ import React from 'react';
 import '../App/App.css';
 import './HomePage.css'
 import Nav from '../Nav/Nav';
-import Footer from '../Footer/Footer';
 import Burger from '../Burger/Burger';
 import Projects from '../Projects/Projects';
 import Header from '../Header/Header';
-
 
 function HomePage(){
     return (
@@ -16,7 +14,6 @@ function HomePage(){
     <Nav />
         <Header/> 
     <Projects/>
-    <Footer />
     </div>
     </div>
     )

@@ -1,9 +1,7 @@
 import React from 'react';
 import './About.css';
 import Nav from '../Nav/Nav'
-import Footer from '../Footer/Footer'
 import Burger from '../Burger/Burger'
-
 
 
 export default function About(){
@@ -30,7 +28,6 @@ export default function About(){
                 </p>
             </section>
         </div>
-        <Footer />
         </main>
         </div>
         </div>

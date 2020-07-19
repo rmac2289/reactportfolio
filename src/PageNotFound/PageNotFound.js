@@ -1,7 +1,6 @@
 import React from 'react';
 import '../About/About.css';
 import Nav from '../Nav/Nav'
-import Footer from '../Footer/Footer'
 import './PageNotFound.css'
 import cat2 from '../images/cat2.jpeg'
 import Burger from '../Burger/Burger'
@@ -26,7 +25,6 @@ export default function PageNotFound() {
                             <p>This page doesn't exist! Hit your browser's back button or use the navigation links to return to safety.</p>
                         </section>
                     </div>
-                    <Footer />
                 </main>
             </div>
         </div>

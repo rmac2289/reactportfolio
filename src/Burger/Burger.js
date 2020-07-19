@@ -53,7 +53,7 @@ class Burger extends Component {
             transition: 'filter 0.5s ease',
           },
         };
-      const menu = ['home', 'about', 'experience', 'blog', 'resume', 'projects', 'contact']
+      const menu = ['home', 'about', 'experience', 'blog', 'resume', 'contact']
       const menuItems = menu.map((val,index)=>{
           return (
           <MenuItem

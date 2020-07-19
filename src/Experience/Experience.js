@@ -1,7 +1,6 @@
 import React from 'react';
 import '../About/About.css';
 import Nav from '../Nav/Nav';
-import Footer from '../Footer/Footer';
 import Burger from '../Burger/Burger';
 import jquery from '../images/jquery.png';
 import knex from '../images/knex.png';
@@ -90,7 +89,6 @@ export default function Experience(){
                 </ul>
             </section>
         </div>
-        <Footer />
         </main>
         </div>
         </div>

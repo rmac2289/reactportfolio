@@ -4,7 +4,9 @@
     flex-direction: column;
     justify-content: center;
 }
-
+#contactSection {
+    padding-top: 50px;
+}
 #main {
     width: 95%;
     margin-left: auto;

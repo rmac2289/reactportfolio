@@ -4,7 +4,6 @@ import * as emailjs from 'emailjs-com';
 import { Button, Form, FormGroup, Input } from 'reactstrap'
 import './Contact.css';
 import '../App/App.css'
-import Footer from '../Footer/Footer';
 import Nav from '../Nav/Nav';
 import { UncontrolledAlert } from 'reactstrap';
 import Burger from '../Burger/Burger';
@@ -117,7 +116,6 @@ class Contact extends Component {
             </div>
             </main>
             </div>
-            <Footer />
         </div>  
 )
       }

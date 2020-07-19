@@ -5,7 +5,7 @@ import HomePage from '../HomePage/HomePage'
 import Contact from '../Contact/Contact'
 import { Route, Switch } from 'react-router-dom'
 import PageNotFound from '../PageNotFound/PageNotFound'
-
+import Footer from '../Footer/Footer'
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route component={PageNotFound} />
       </Switch>
+      <Footer />
     </div>
   );
 }
