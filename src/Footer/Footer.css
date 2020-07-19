@@ -13,6 +13,9 @@
     color: white;
     font-size: 12px;
 }
+.hidden-text {
+    display: none;
+}
 .icons {
     margin-bottom: 16px;
     margin-top: 16px;
