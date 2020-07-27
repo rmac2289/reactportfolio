@@ -48,7 +48,7 @@ export default function Experience(){
                 I’ve gone from being brand new to becoming a trainer within a year and a supervisor within three years.  
                 I’m ready to put the same efforts that led to those achievements into a career in web development. 
                 </p>
-                <h4>what I've worked with</h4>
+                <h4>tech I've worked with</h4>
                 <ul className="techlist">
                     <LightTooltip title="React" TransitionProps={{ timeout: 650 }} placement="top" arrow>
                     <li className="tech"><FontAwesomeIcon icon={faReact} size="2x"/></li>

@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faReact, faNodeJs, faJs, faHtml5, faCss3, faGitAlt } from '@fortawesome/free-brands-svg-icons'
 import '@fortawesome/fontawesome-svg-core';
+import badge from '../images/best-project-of-the-week.png'
 
 export default function Accordion() {
 
@@ -35,11 +36,17 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleOne}>
+        <div className="subtitle-box">
         <p>A full-stack application for Californians looking to head outdoors. The app allows a user to find
           parks in their area via several different search methods. I built this 
           because of what I saw as a shortage of aggregated data on parks run by different agencies (state,
-          national, county, etc.).Through further data aggregation, the app will soon be available for other states.  
+          national, county, etc.). Through further data aggregation, the app will soon be available for other states. 
         </p>
+        <p id="featured-span">
+          <img id="badge" src={badge} alt="badge"/>
+          <a id="badge-link" href="https://careerkarma.com/blog/projects-spotlight-7-24-2020/" target="_blank" rel="noopener noreferrer">Featured as a project of the week on careerkarma.com.</a>
+          </p>
+          </div>
         <FontAwesomeIcon className="accordion-icon" icon={!oneIsOpen ? faChevronDown : faChevronUp} />
       </div>
       {oneIsOpen && <div className="accordion-1">

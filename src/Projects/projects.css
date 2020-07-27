@@ -134,10 +134,7 @@ img {
     height: 25px;
     width: 25px;
 }
-.section3 div img {
-    max-height: 100%;
-    max-width: 100%;
-}
+
 .githublist {
     display: block;
     padding: 2%;

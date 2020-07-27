@@ -6,12 +6,12 @@ import park from '../ParkScreenshots/park.jpg'
 import parklist from '../ParkScreenshots/parklist.jpg'
 import signup from '../ParkScreenshots/signup.jpg'
 import './projects.css';
+import './Parkfinder.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import picnic from '../images/picnic.png';
-
 export default function Hearsay(){
     return (
 <section className="section3">

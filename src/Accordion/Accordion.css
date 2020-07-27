@@ -11,6 +11,26 @@
     transform:scaleY(1);
     transform-origin:top; 
   }
+.subtitle-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#featured-span {
+    font-weight: 600;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+}
+#badge-link {
+    color: #31708e;
+}
+
 .collapsed {
     transform:scaleY(0); 
 }
@@ -97,5 +117,20 @@
 @media only screen and (min-width:720px){
     .accordion-container {
         width: 85%;
+    }
+    #featured-span {
+        flex-direction: row;
+        align-items: center;
+        background-color: #31708ecc;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 2%;
+
+    }
+    #badge-link {
+        color: white;
+    }
+    #badge {
+        margin-right:10px
     }
 }
