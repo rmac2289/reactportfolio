@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <ul className="icons">
                 <li><Link id="home" to="/"><FontAwesomeIcon size="2x" icon={faHome} alt="homepage link" className="fontawesome" /><span className="hidden-text">home</span></Link></li>
-                <li><a id="resume" href="https://ross-scott-macdonald.com/resume" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  size="2x" icon={faFile} alt="resume link" className="fontawesome"/><span className="hidden-text">resumé</span></a>
+                <li><a id="resume" href="https://ross-scott-macdonald.com/resume.pdf" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  size="2x" icon={faFile} alt="resume link" className="fontawesome"/><span className="hidden-text">resumé</span></a>
                 </li>
                 <li><a id="git" href="https://github.com/rmac2289" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon  size="2x" icon={faGithub} alt="github link" className="fontawesome"/><span className="hidden-text">GitHub</span></a>
                 </li>
