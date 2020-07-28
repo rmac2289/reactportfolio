@@ -14,7 +14,7 @@ import badge from '../images/best-project-of-the-week.png'
 
 export default function Accordion() {
 
-  const [oneIsOpen, setOneIsOpen] = useState(true);
+  const [oneIsOpen, setOneIsOpen] = useState(false);
   const [twoIsOpen, setTwoIsOpen] = useState(false);
   const [threeIsOpen, setThreeIsOpen] = useState(false);
 
