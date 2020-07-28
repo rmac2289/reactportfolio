@@ -37,7 +37,7 @@ export default function Accordion() {
       </div>
       <div className="accordion-sub-title" onClick={toggleOne}>
         <div className="subtitle-box">
-        <p>A full-stack application for Californians looking to head outdoors. The app allows a user to find
+        <p className="project-description">A full-stack application for Californians looking to head outdoors. The app allows a user to find
           parks in their area via several different search methods. I built this 
           because of what I saw as a shortage of aggregated data on parks run by different agencies (state,
           national, county, etc.). Through further data aggregation, the app will soon be available for other states. 
@@ -64,7 +64,7 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleTwo}>
-        <p>Hearsay is a full-stack application built with social justice in mind. Users can log 
+        <p className="project-description">Hearsay is a full-stack application built with social justice in mind. Users can log 
           encounters with law enforcement and speak on discussion boards about criminal justice issues. This app
           was built with current events in mind - with so much turmoil and change, I feel we need more venues
           for people to make their voices heard. 
@@ -84,7 +84,7 @@ export default function Accordion() {
         </div>
       </div>
       <div className="accordion-sub-title" onClick={toggleThree}>
-        <p>The meal generator is a single-page app that allows the user to create a meal plan for the week.
+        <p className="project-description">The meal generator is a single-page app that allows the user to create a meal plan for the week.
           I built this out of necessity - working full time while learning to code has been tough at times; 
           the meal generator maps out every meal and provides links to recipes, automating a time-consuming task
           for your week. 

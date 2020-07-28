@@ -35,7 +35,7 @@
     transform:scaleY(0); 
 }
 .accordion-button {
-    height: 100px;
+    height: 65px;
     font-size: 32px;
     border-radius: 4px;
     margin-bottom: 0;
@@ -100,7 +100,7 @@
   0 50px 30px rgba(0, 0, 0, 0.12)
 ;
 }
-.accordion-sub-title > p {
+.project-description {
     padding: 2%;
     margin-bottom: 0;
     font-size: 18px;
@@ -124,7 +124,7 @@
         background-color: #31708ecc;
         border-radius: 10px;
         margin-top: 10px;
-        padding: 2%;
+        padding: 1%;
 
     }
     #badge-link {
