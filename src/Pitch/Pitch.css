@@ -1,40 +1,207 @@
 .top-half {
     display: flex;
-    margin-top: 100px;
+    margin-top: 20px;
+    flex-direction: column;
 }
 .featured-project {
     display: flex;
     margin-top: 50px;
+    margin-bottom: 100px;
+    flex-direction: column-reverse;
 }
 
 .pitch-header-box {
     display: flex;
     flex-direction: column;
     flex: 1;
+    border-radius: 10px;
 }
-.pitch-header, .pitch-p {
-    width: 65%;
+#pitch {
+background: rgba(49, 112, 142)
+}
+.pitch {
+    width: 95%;
+    margin-top: 45px;
+    margin-bottom: 120px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(255,255,255,0.95);
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+    border: 15px solid rgb(64, 75, 62,0.3);
+}
+
+.pitch-header {
+    font-family: "Oswald";
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: .05em;
+    color: white;
+}
+.pitch-p {
+    color: white;
+}
+.pitch-header-p-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(64, 75, 62,0.8);
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+    
+}
+.pitch-header-p-box-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(64, 75, 62,0.8);
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+}
+.pitch-header-2, .pitch-p-2 {
+    color: white;
+}
+.pitch-p, .pitch-p-2 {
+    font-family: "Quattrocento";
+    font-size: 18px;
+}
+.pitch-header-2 {
+    font-weight: 700;
+    font-family: "Oswald";
+    font-size: 32px;
+    letter-spacing: .05em;
+    transition: .5s all linear;
+}
+.pitch-header-2:hover {
+    text-decoration: none;
+    color: rgb(255,255,255,0.7);
 }
 .pitch-tech-list {
     display: flex;
-    position: fixed;
-    left: 0;
-    top: 100px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+    background: rgb(64, 75, 62,0.8);
+}
+#postgres-img {
+    border-radius: 10px;
+}
+
+#pitch-postgres {
+    height: 45px;
+    width: 40px;  
+    border-radius: 10px;  
+}
+.pitch-tech {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-top: 2%;
+    font-size: 8px;
 }
 .media-container {
-    flex: 1;
+    flex: 1.5;
+
 }
 .pitch-container {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
 }
-#media {
+#project-pic {
+    margin-top: 25px;
     border-radius: 20px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+}
+#media {
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+}
+#best {
+    margin-top: 25px;
+    height: 60px;
+    width: 200px;
+}
+#js {
+    background-color: #323330;
+    border-radius: 5px;
+}
+@media only screen and (min-width: 720px){
+    .top-half, .featured-project {
+        flex-direction: row;
+    }
+    .featured-project {
+        margin-bottom: 0;
+    }
+    .pitch {
+        width: 85%;
+    }
+    #media, #project-pic {
+        width: 500px;
+        margin-top: 0;
+    }
+    #pitch-postgres {
+        height: 60px;
+        width: 70px; 
+        margin-top: 5px;
+        border-radius: 10px;
+        padding-top: 5px;
+    }
+    .pitch-header-p-box {
+        margin-right: 0;
+        width: 85%
+    }
+    .pitch-tech {
+        padding: 0;
+        font-size: initial;
+    }
+    .pitch-header-p-box-2 {
+        margin-left: 0;
+        width: 85%
+    }
+    .pitch-tech-list {
+    display: flex;
+    position: initial;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 0;
+    flex-direction: row;
+    background: rgb(64, 75, 62,0.8);
+    margin-bottom: 90px;
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+    }
+}
+@media only screen and (min-width: 1024px){
+    
+    #media {
+        margin-right: 50px;
+    }
+    #project-pic {
+        margin-left: 50px;
+    }
+    .top-half {
+        padding-top: 50px;
+    }
+
+    
 }

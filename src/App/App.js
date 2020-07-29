@@ -17,6 +17,7 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/pitch" component={Pitch} />
+
         <Route component={PageNotFound} />
       </Switch>
       <Footer />
