@@ -42,8 +42,6 @@ export default function Pitch(){
                     </div>
                 </div>
                 <div className="media-container">
-                    <FontAwesomeIcon id="arrow-right-1" icon={faLongArrowAltRight} size="3x"/>
-                    <FontAwesomeIcon id="arrow-down-1" icon={faLongArrowAltDown} size="3x"/>
                     <video id="media" width="500" height="300" controls >
                         <source src="" type="video/mp4"/>
                     </video>
@@ -51,13 +49,10 @@ export default function Pitch(){
             </div>
             <div className="featured-project">
                 <div className="media-container">
-                <FontAwesomeIcon id="arrow-down-2" icon={faLongArrowAltDown} size="3x"/>
                     <img id="project-pic" src={home} alt="Find Your Park homepage"/>
                 </div>
                 <div className="pitch-header-box">                    
                     <div className="pitch-header-p-box-2">
-                    <FontAwesomeIcon id="caret3" icon={faLongArrowAltLeft} size="3x"/>
-
                     <h3 className="pitch-header-2"><a className="pitch-header-2" href="https://findyourpark.netlify.app" target="_blank" rel="noopener noreferrer">Featured Project</a></h3>
                     <div className="pitch-p-2">Find Your Park, a full-stack app built using Node.js, React, and PostgreSQL, was recently
                     featured as a project of the week on careerkarma.com. Search for California parks by name,

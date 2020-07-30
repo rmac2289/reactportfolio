@@ -73,27 +73,7 @@ background: rgba(49, 112, 142)
     10px 0px 16px 0px rgb(0,0,0,0.4);
     position: relative;
 }
-  #caret3, #arrow-right-1, #arrow-down-1, #arrow-down-2 {
-    content: "";
-    position: absolute;
-    color: rgb(64, 75, 62,0.8);
-  }
-  #caret3 {
-    right: 105%;
-    top: 85%;
-  }
-  #arrow-right-1 {
-    right: 88%;
-    top: 5%;
-  }
-  #arrow-down-1 {
-    top: 90%;
-    right: 15%;
-  }
-  #arrow-down-2 {
-    top: 83%;
-    left: 15%;
-  }
+
 .pitch-header-2, .pitch-p-2 {
     color: white;
 }
@@ -115,12 +95,12 @@ background: rgba(49, 112, 142)
 .pitch-tech-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-   
+    justify-content: space-evenly; 
 }
 #postgres-img {
     border-radius: 10px;
+    height: 35px;
+    width: 35px;
 }
 
 #pitch-postgres {
@@ -129,11 +109,14 @@ background: rgba(49, 112, 142)
 }
 .pitch-tech {
     font-size: 8px;
-    height: 75px;
+    height: 45px;
     background: rgba(49, 112, 142,0.8);
     box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
     10px 0px 16px 0px rgb(0,0,0,0.4);
     padding: 2%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 
 }
 .media-container {
@@ -173,14 +156,12 @@ background: rgba(49, 112, 142)
     border-radius: 5px;
 }
 @media only screen and (min-width: 720px){
-    .top-half, .featured-project {
-        flex-direction: row;
-    }
+    
     .featured-project {
         margin-bottom: 0;
     }
     .pitch {
-        width: 85%;
+        width: 98%;
     }
     #media, #project-pic {
         width: 500px;
@@ -203,6 +184,7 @@ background: rgba(49, 112, 142)
         display: flex;
         align-items: center;
         border-radius: 5px;
+        height: 75px;
     }
     .pitch-header-p-box-2 {
         margin-left: 0;
@@ -224,8 +206,15 @@ background: rgba(49, 112, 142)
    
     }
 }
+@media only screen and (min-width: 820px){
+    .top-half, .featured-project {
+        flex-direction: row;
+    }
+}
 @media only screen and (min-width: 1024px){
-    
+    .pitch {
+        width: 85%;
+    }
     #media {
         margin-right: 50px;
     }
