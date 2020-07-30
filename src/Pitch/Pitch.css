@@ -41,6 +41,13 @@ background: rgba(49, 112, 142)
 }
 .pitch-p {
     color: white;
+    margin: initial;
+    padding: initial;
+    text-align: left; 
+}
+#here {
+    color: white;
+    font-weight: 800;
 }
 .pitch-header-p-box {
     display: flex;
@@ -64,7 +71,29 @@ background: rgba(49, 112, 142)
     padding: 3%;
     box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
     10px 0px 16px 0px rgb(0,0,0,0.4);
+    position: relative;
 }
+  #caret3, #arrow-right-1, #arrow-down-1, #arrow-down-2 {
+    content: "";
+    position: absolute;
+    color: rgb(64, 75, 62,0.8);
+  }
+  #caret3 {
+    right: 105%;
+    top: 85%;
+  }
+  #arrow-right-1 {
+    right: 88%;
+    top: 5%;
+  }
+  #arrow-down-1 {
+    top: 90%;
+    right: 15%;
+  }
+  #arrow-down-2 {
+    top: 83%;
+    left: 15%;
+  }
 .pitch-header-2, .pitch-p-2 {
     color: white;
 }
@@ -87,27 +116,29 @@ background: rgba(49, 112, 142)
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
-    10px 0px 16px 0px rgb(0,0,0,0.4);
-    background: rgb(64, 75, 62,0.8);
+    
+   
 }
 #postgres-img {
     border-radius: 10px;
 }
 
 #pitch-postgres {
-    height: 45px;
-    width: 40px;  
+    
     border-radius: 10px;  
 }
 .pitch-tech {
-    margin-bottom: 5px;
-    margin-right: 5px;
-    padding-top: 2%;
     font-size: 8px;
+    height: 75px;
+    background: rgba(49, 112, 142,0.8);
+    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
+    10px 0px 16px 0px rgb(0,0,0,0.4);
+    padding: 2%;
+
 }
 .media-container {
     flex: 1.5;
+    position: relative;
 
 }
 .pitch-container {
@@ -155,20 +186,23 @@ background: rgba(49, 112, 142)
         width: 500px;
         margin-top: 0;
     }
+    #postgres-img {
+        height: 50px;
+        width: 60px;
+    }
     #pitch-postgres {
-        height: 60px;
-        width: 70px; 
         margin-top: 5px;
-        border-radius: 10px;
-        padding-top: 5px;
+        border-radius: 5px;
     }
     .pitch-header-p-box {
         margin-right: 0;
         width: 85%
     }
     .pitch-tech {
-        padding: 0;
         font-size: initial;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
     }
     .pitch-header-p-box-2 {
         margin-left: 0;
@@ -185,10 +219,9 @@ background: rgba(49, 112, 142)
     border-radius: 10px;
     margin-top: 0;
     flex-direction: row;
-    background: rgb(64, 75, 62,0.8);
+    
     margin-bottom: 90px;
-    box-shadow: 0px 21px 11px -16px rgb(0,0,0,0.4),
-    10px 0px 16px 0px rgb(0,0,0,0.4);
+   
     }
 }
 @media only screen and (min-width: 1024px){
